@@ -1,0 +1,8 @@
+{
+  "name": "Smart Spark",
+  "description": "Real-time Dashcam video feed with HUD Telemetry overlay (Speed, RPM, Coolant, Throttle, Boost), ELM327 Bluetooth integration, and AI Diagnostic assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

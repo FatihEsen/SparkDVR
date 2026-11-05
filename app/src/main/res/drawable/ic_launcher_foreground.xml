@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Deep futuristic background glow -->
+    <path
+        android:fillColor="#151720"
+        android:pathData="M54,54m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0" />
+
+    <!-- Outer Tech Ring -->
+    <path
+        android:strokeColor="#3300C7FF"
+        android:strokeWidth="2"
+        android:pathData="M54,54m-42,0a42,42 0,1 1,84 0a42,42 0,1 1,-84 0" />
+        
+    <!-- Speedometer Gauge Track -->
+    <path
+        android:strokeColor="#22FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M 28,80 A 36,36 0 1,1 80,80" />
+        
+    <!-- Active Speed Arc (Cyan to Red) -->
+    <path
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M 28,80 A 36,36 0 0,1 80,28" >
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="28" android:startY="80"
+                android:endX="80" android:endY="28"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00C7FF" />
+                <item android:offset="1.0" android:color="#FF3B30" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Gauge Needle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,54 L75,30 L77,32 Z" />
+        
+    <!-- Center Hub Glow -->
+    <path
+        android:fillColor="#00C7FF"
+        android:pathData="M54,54m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+        
+    <!-- Center Hub Inner -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+
+    <!-- Digital Numbers Abstract -->
+    <path
+        android:fillColor="#00C7FF"
+        android:pathData="M44,70 h20 v3 h-20 z" />
+    <path
+        android:fillColor="#FF3B30"
+        android:pathData="M48,76 h12 v2 h-12 z" />
+</vector>
